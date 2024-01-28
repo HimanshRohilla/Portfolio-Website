@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Blank Coder - Developer Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font = Poppins -->
+
+    <style>
+      body {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+        background-color: rgb(32, 32, 33);
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: #aa6ce5;
+        font-size: 1.01rem;
+      }
+
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 2px;
+        margin: 30px 84px;
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 23px 0;
+        width: 30;
+      }
+
+      .firstsection > div {
+        width: 30%;
+      }
+
+      .leftsection {
+        font-size: xx-large;
+        margin: 70px 0;
+      }
+
+      .rightsection img {
+        width: 70%;
+      }
+
+      .purple {
+        color: #aa6ce5;
+      }
+
+      .text-gray{
+        color: gray;
+      }
+
+      #element {
+        color: rgb(170, 107, 228);
+      }
+
+      .leftsection .btn{
+        background: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+        padding: 12px;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+
+    <script src="script.js"></script>
+    <header>
+      <nav>
+        <div class="left">Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My name is <span class="purple">Blank</span>
+          <div>and I am a Passionate</div>
+          <span id="element"></span>
+          <div class="button">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Social Platforms</button>
+          </div>
+        </div>
+        <div class="rightsection">
+          <center><img src="Blank Coder.png" alt="Blank Coder" /></center>
+        </div>
+      </section>
+
+
+    <section class="secondsection">
+    </section>
+    </main>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["<i>Web</i> Developer", "<i>Wordpress</i> Developer", "&amp; <i>Graphic</i> Desginer."],
+        typeSpeed: 50,
+      });
+    </script>
+
+
+  </body>
+</html>
